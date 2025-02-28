@@ -18,7 +18,8 @@ public class Flower implements Node{
 		circle.setFill(color);
 		circle.setRadius(10);
 		circle.setStroke(Color.BLACK);
-		circle.setStrokeWidth(2);
+		circle.setStrokeWidth(1);
+		circle.setVisible(true);
 	}
 	public Circle getCircle()
 	{

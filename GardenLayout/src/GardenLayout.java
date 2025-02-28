@@ -26,9 +26,10 @@ public class GardenLayout extends Application{
 		stage.setTitle("Garden Layout");
 		stage.show();
 		Flower flower = new Flower(Color.RED,new Point2D(400,400),false);
-		root.getChildren().add(flower.getCircle());
 		Box garden = new Box(500,500,100,200);
 		root.getChildren().add(garden.getRectangle());
+		root.getChildren().add(flower.getCircle());		
+		
 		EventHandler eventHandler = new EventHandler<MouseEvent>()
 		{			
 			@Override

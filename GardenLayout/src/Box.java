@@ -19,7 +19,7 @@ public class Box implements Node{
 	{
 		rectangle = new Rectangle(x,y,length,width);
 		rectangle.setStroke(Color.BLACK);
-		rectangle.setFill(Color.LIGHTGREY);
+		rectangle.setFill(Color.BLACK);
 	}
 	public Rectangle getRectangle()
 	{
